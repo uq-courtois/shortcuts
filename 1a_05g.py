@@ -1,14 +1,15 @@
-x = ['Jing','Kate','Lisa','Marc']
-y = [1,3,4,5,8,9]
+x = ['Jing','Kate','Lisa','Marc'] # Alphabetical order
+y = [1,3,4,5,8,9] # Ascending order
 z = [5,9,8,1,4,3] # Unsorted list
 
-x.reverse() # Reverses the order of list x
-# If perviously sorted, it is now in reverse alphabetical order
+# Reverses the order of list x
+x.reverse() 
 print(x)
 
-y.reverse() # Reverses the order of list y
-# If previously sorted in is now in descending order (largest to smallest)
+# Reverses the order of list y
+y.reverse() 
 print(y)
 
-z.reverse() # Reverses the order of list z, an unsorted list
+# Reverses the order of list z, an unsorted list
+z.reverse() 
 print(z)
