@@ -1,5 +1,5 @@
 x = 'This is a sentence'
 
-# Replace sentence with word
+# Replace 'sentence' by 'word'
 y = x.replace('sentence', 'word')  
 print(y)
