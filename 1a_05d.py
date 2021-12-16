@@ -1,7 +1,10 @@
-z = ['Lisa','Marc',4,5,'Jing'] # List with mixed data
+# List with mixed data
+z = ['Lisa','Marc',4,5,'Jing'] 
 
-z.insert(0,'Kate') # Index 0 means insert at the first position on the list
+# Index 0 means insert at the first position on the list
+z.insert(0,'Kate') 
 print(z)
 
-z.insert(2,6) # Index 2 means insert at the third position on the list
+# Index 2 means insert at the third position on the list
+z.insert(2,6) 
 print(z)
