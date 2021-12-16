@@ -9,6 +9,5 @@ print(z[1])
 # Print third element (index 2)
 print(z[2])
 
-# Print last element
-# (negative because starts from the end)
+# Print last element (negative because starts from the end)
 print(z[-1]) 
