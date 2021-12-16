@@ -1,4 +1,5 @@
 x = 'This is a sentence'
 
-y = x.replace('sentence', 'word')  # Split string on spaces
+# Replace sentence with word
+y = x.replace('sentence', 'word')  
 print(y)
