@@ -1,8 +1,10 @@
 x = ['Lisa','Marc','Kate','Jing'] 
 y = [5,9,8,1,4,3]
 
-x.sort() # Sorts list x alphabetically
+# Sorts list x alphabetically
+x.sort() 
 print(x)
 
-y.sort() # Sorts list y in ascending order (smallest to largest)
+# Sorts list y in ascending order (smallest to largest)
+y.sort() 
 print(y)
