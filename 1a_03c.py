@@ -1,9 +1,11 @@
 x = 'This is a string sentence.'
 
-y = x.split(' ') # Split string on spaces
+# Split string on spaces
+y = x.split(' ') 
 print (y)
 
 a = 'http://www.someurl.com/page/45'
 
-b = a.split('/') # Split string on forward slashes
+# Split string on forward slashes
+b = a.split('/') 
 print(b)
