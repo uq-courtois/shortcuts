@@ -1,4 +1,5 @@
 x = 'This IS a SENtence'
+print(x)
 
 x = x.lower()
 print(x)
