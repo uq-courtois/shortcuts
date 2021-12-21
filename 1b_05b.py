@@ -1,11 +1,11 @@
-# A list 
+### LIST
 # Iterator value = element in list
 x = [1,2,3,4]
 
 for i in x:
 	print(i)
 
-# A list of dictionaries
+### LIST OF DICTIONARIES
 # Iterator value = element in list = dictionary
 
 x = [
@@ -20,7 +20,7 @@ for i in x:
 for i in x: 
 	print(i['Name'])
 
-# A dictionary
+### DICTIONARY
 # Iterator value = dictonary key
 x = {'Name':'Jamie','Age':19}
 
@@ -31,7 +31,7 @@ for i in x:
 for i in x:
 	print(i,x[i])
 
-# A string
+### STRING
 # Iterator value = character in string
 x = 'This is a sentence'
 
