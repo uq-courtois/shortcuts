@@ -20,11 +20,11 @@ for i in x:
 for i in x: 
 	print(i['Name'])
 
-# STRING
+### STRING
 # Iterator value = character in string
 x = 'Word'
 
 for i in x:
 	print(i)
 
-# ...
+### ...
