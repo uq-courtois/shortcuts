@@ -16,13 +16,13 @@ x = [
 for i in x:
 	print(i)
 
-	# We can access a value by adding a key:
+	# We can narrow down the dictionary to a value by adding a key:
 for i in x: 
 	print(i['Name'])
 
 # STRING
 # Iterator value = character in string
-x = 'This is a sentence'
+x = 'Word'
 
 for i in x:
 	print(i)
