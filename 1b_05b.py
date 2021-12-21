@@ -1,4 +1,4 @@
-### LIST
+#### LIST
 # Iterator value = element in list
 x = [1,2,3,4]
 
@@ -16,22 +16,11 @@ x = [
 for i in x:
 	print(i)
 
-	# We can access all values of a key:
+	# We can access a value by adding a key:
 for i in x: 
 	print(i['Name'])
 
-### DICTIONARY
-# Iterator value = dictonary key
-x = {'Name':'Jamie','Age':19}
-
-for i in x:
-	print(i)
-	
-	# We can loop through each key-value pair:
-for i in x:
-	print(i,x[i])
-
-### STRING
+# STRING
 # Iterator value = character in string
 x = 'This is a sentence'
 
