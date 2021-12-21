@@ -8,3 +8,7 @@ print(y)
 
 y = list(y) # convert set back into a list
 print(y)
+
+# Or shorter (all in once):
+y = list(set(x))
+print(y)
