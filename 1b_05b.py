@@ -15,8 +15,9 @@ x = [
 
 for i in x:
 	print(i)
-	
+
 	# We can access a value by adding a key:
+for i in x: 
 	print(i['Name'])
 
 # A dictionary
@@ -26,8 +27,9 @@ x = {'Name':'Jamie','Age':19}
 for i in x:
 	print(i)
 	
-	#We can even access each value:
-	print(x[i])
+	#We can loop through each key-value pair:
+for i in x:
+	print(i,x[i])
 
 # A string
 # Iterator value = character in string
