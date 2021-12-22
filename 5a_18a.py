@@ -1,6 +1,6 @@
 import matplotlib.pyplot as  # import once at the top of your script
 
-# This snippet assumses you already have a variable catsum, 
+# This snippet assumes you already have a variable catsum, 
 # produced by generating a crosstab (see relation between 
 # two categorical variables)
 
