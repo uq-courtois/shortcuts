@@ -2,11 +2,11 @@ import pandas as pd # import once at the top of your script
 from scipy import stats # import once at the top of your script
 import matplotlib.pyplot as  # import once at the top of your script
 
-# BAR PLOTS OF TWO GROUPS in y FOR A VARIABLE x
+# BAR PLOTS OF TWO GROUPS in x FOR A VARIABLE y
 
 # Subset two groups
-group1 = df[df['y'] == 'value that identifies group 1']['x']
-group2 = df[df['y'] == 'value that identifies group 2']['x']
+group1 = df[df['x'] == 'value that identifies group 1']['y']
+group2 = df[df['x'] == 'value that identifies group 2']['y']
 
 means = (group1.mean(), group2.mean())  # Calculating means
 positions = [0, 1]  # Defining positions in the graph
