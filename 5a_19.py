@@ -1,5 +1,4 @@
-# Set max of rows to show, in/decrease to needs
-pd.set_option('max_rows', 9999)
+import pandas as pd # import once at the top of your script
 
-# MEAN, STANDARD DEVIATION (std), MEDIAN (50%)
+# MEAN, STANDARD DEVIATION (std), MEDIAN (50%) of variable/column x
 print(df['x'].describe())
