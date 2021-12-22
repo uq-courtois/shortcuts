@@ -1,3 +1,5 @@
+import pandas as pd # import once at the top of your script
+
 # Subsetting rows with values for popularity higher than 80
 # Use a boolean expression to create a rule for subsetting the data
 df_pop = df[df['popularity'] > 80]
