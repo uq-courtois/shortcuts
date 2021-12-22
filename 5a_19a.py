@@ -1,5 +1,8 @@
+import matplotlib.pyplot as  # import once at the top of your script
+
 # HISTOGRAM
-# Render histogram (By increasing the bins number, you smoothen the graph)
+# Render histogram of numeric variable/column x
+# (By increasing the bins number, you smoothen/add detail to the graph)
 plt.hist(df['x'], bins=100)
 
 # Forces tidy plot lay-out
