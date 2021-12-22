@@ -1,11 +1,13 @@
 import pandas as pd
 import string
-from collections import Counter,OrderedDict
 import nltk
-nltk.download('stopwords')
-from nltk.corpus import stopwords
+nltk.download('punkt')
 from nltk.tokenize import word_tokenize
-set(stopwords.words('english'))
+from collections import Counter
+
+# Get stopwords
+sw = pd.read_csv('https://www.digitalanalytics.id.au/static/files/stopwords.csv',sep=',')
+stopwords = sw['stopwords'].tolist()
 
 # Read data
 df = pd.read_csv('https://digitalanalytics.id.au/static/files/headlines.csv',sep=',')
@@ -20,13 +22,13 @@ text = text.translate(str.maketrans('', '', string.punctuation))
 text_tokens = word_tokenize(text)
 
 # Remove stopwords from the tokenised text
-wordlist = [word for word in text_tokens if not word in stopwords.words()]
+wordlist = [word for word in text_tokens if not word in stopwords]
 
 # Generate dataframe with extracted keywords, sorted for frequency
 df = pd.DataFrame(list(dict(Counter(wordlist)).items()),columns = ['Word','Frequency']).sort_values(['Frequency'],ascending=False)
 
 # Print df
-print(df)
-
+print(df[['Word','Frequency']].head(50))
+  
 # Save to CSV file
 df.to_csv('results.csv',sep=',',index=False)
