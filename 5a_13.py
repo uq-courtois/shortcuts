@@ -1,3 +1,5 @@
+import pandas as pd # import once at the top of your script
+
 # Replaces 'substring' in x with ''
 df['x'] = df['x'].str.replace('substring', '')
 
