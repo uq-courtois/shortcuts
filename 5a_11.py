@@ -1,3 +1,5 @@
+import pandas as pd # import once at the top of your script
+
 # Print the dataframe contents
 print('\nDF before:\n', df)
 
