@@ -1,6 +1,6 @@
 import pandas as pd # import once at the top of your script
 from scipy import stats # import once at the top of your script
-import matplotlib.pyplot as  # import once at the top of your script
+import matplotlib.pyplot as plt # import once at the top of your script
 
 # BAR PLOTS OF TWO GROUPS in x FOR A VARIABLE y
 
