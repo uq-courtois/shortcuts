@@ -1,5 +1,6 @@
 import pandas as pd # import once at the top of your script
 import researchpy as rp # import once at the top of your script
+import matplotlib.pyplot as plt # import once at the top of your script
 
 # STACKED BAR CHART for variables/columns x and y
 ct = pd.crosstab(df['x'], df['y'],
