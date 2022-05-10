@@ -1,4 +1,4 @@
-import matplotlib.pyplot as  # import once at the top of your script
+import matplotlib.pyplot as plt # import once at the top of your script
 
 # HISTOGRAM
 # Render histogram of numeric variable/column x
