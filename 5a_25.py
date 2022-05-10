@@ -1,6 +1,6 @@
 import pandas as pd # import once at the top of your script
 import researchpy as rp # import once at the top of your script
-import matplotlib.pyplot as  # import once at the top of your script
+import matplotlib.pyplot as plt # import once at the top of your script
 from pingouin import welch_anova # import once at the top of your script
 
 # BAR PLOTS OF THREE GROUPS IN x FOR A VARIABLE y
