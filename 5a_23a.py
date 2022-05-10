@@ -1,4 +1,4 @@
-import matplotlib.pyplot as  # import once at the top of your script
+import matplotlib.pyplot as plt # import once at the top of your script
 import pandas as pd # import once at the top of your script
 
 # SCATTERPLOT for variables x and y
