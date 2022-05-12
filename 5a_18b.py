@@ -1,8 +1,9 @@
 import matplotlib.pyplot as plt # import once at the top of your script
 
 # This snippet assumes you already have a variable catsum, 
-# produced by generating a crosstab (see relation between 
-# two categorical variables)
+# contains the description of the categorical variable/column x
+# e.g.,
+catsum = rp.summary_cat(df['x'])
 
 # BART CHART- percent
 plt.bar(catsum['Outcome'], catsum['Percent'])
